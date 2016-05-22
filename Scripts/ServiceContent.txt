@@ -1,0 +1,10 @@
+[Unit]
+Description = load device tree and modify memory
+After = syslog.target
+
+[Service]
+Type = simple
+ExecStart = /usr/bin/startScript.sh
+
+[Install]
+WantedBy = multi-user.target
