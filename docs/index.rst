@@ -13,6 +13,7 @@ Contents:
 
    getting_started
    modify_beaglebone_for_communication
+   external_storage
 
 Indices and tables
 ==================

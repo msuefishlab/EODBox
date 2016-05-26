@@ -3,7 +3,7 @@ Modifying the BeagleBone for Communication
 ############
 
 
-The BeagleBone must be modified to enable communication with the shield. 
+The BeagleBone must be modified to enable communication with the shield in order to function properly.  Follow these steps to do so: 
 
 1. Enable the pins and slots.
 To do so, enter the following commands into the command line::
@@ -37,6 +37,7 @@ And copy the following configuration::
 	sudo mount /dev/mmcblk0p1 /mnt/vfat
 	
 5. Edit the uEnv.txt Configuration File by the following::
+
 	cd /mnt/vfat
 	nano uEnv.txt
 
