@@ -12,7 +12,7 @@ Contents:
    :numbered:
 
    getting_started
-
+   modify_beaglebone_for_communication
 
 Indices and tables
 ==================
