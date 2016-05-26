@@ -14,6 +14,7 @@ To do so, enter the following commands into the command line::
 Note: the “*” indicates that this value differs depending on which version of Linux your BeagleBone has. To have this value automatically filled out for you, hit tab when typing the “bone_capemgr.*” portion of the command.
 
 2. To enable these on startup the ,profile file needs to be edited. To do this enter the command::
+
 	nano ~/.profile
 
 And copy the following configuration::
@@ -31,6 +32,7 @@ And copy the following configuration::
 
 3. Save and close the file
 4. The HDMI needs to be disabled in order to access the PRUs, disable HDMI by the following commands::
+
 	sudo mkdir /mnt/vfat
 	sudo mount /dev/mmcblk0p1 /mnt/vfat
 	
@@ -38,7 +40,7 @@ And copy the following configuration::
 	cd /mnt/vfat
 	nano uEnv.txt
 
-The unedited file will have a “#” before the optargs= line. Delete this symbol to disable the HDMI::
+The unedited file will have a “#” before the optargs= line. Delete the (#) symbol to disable the HDMI::
 
 	##Disable HDMI
 	optargs=capemgr.disable_partno=BB-BONELT-HDMI,BB-BONELT-HDMIN
