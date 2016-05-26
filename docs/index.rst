@@ -15,6 +15,7 @@ Contents:
    modify_beaglebone_for_communication
    external_storage
    modify_pru_memory
+   rtc_enabling
 
 Indices and tables
 ==================
