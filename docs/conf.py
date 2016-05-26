@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'EODBox'
-copyright = u'2016, Bailey Winter, Jason Gallant'
+copyright = u'2016, Bailey Winter and Jason Gallant.  Licensed under Creative Commons CC BY-NC-SA.'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
